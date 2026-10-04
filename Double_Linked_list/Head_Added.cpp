@@ -38,7 +38,7 @@ int main()
     head->next->next->next = new DNode(40);
     head->next->next->next->prev = head->next->next;
 
-    addHeadDNode(head, 5);
+        addHeadDNode(head, 5);
 
     for (DNode *current = head; current != nullptr; current = current->next)
     {
